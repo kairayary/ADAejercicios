@@ -7,6 +7,7 @@ public class Main {
 
         transaccion.crearCuenta();
         transaccion.ingresarDinero(300);
+        System.out.println(transaccion.sa);
         transaccion.consultarSaldo();
         transaccion.retirarDinero(100);
         transaccion.consultarSaldo();
